@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manisha Chaudhari | IT Infrastructure Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#1f2937;background:#f5f7fb}
+header{background:#111827;color:white;padding:70px 8%;text-align:center}
+header h1{font-size:42px;margin-bottom:10px}
+header p{font-size:18px;color:#d1d5db}
+nav{background:#fff;padding:15px 8%;position:sticky;top:0;box-shadow:0 2px 8px #0001;text-align:center}
+nav a{margin:0 15px;text-decoration:none;color:#374151;font-weight:600}
+section{max-width:1050px;margin:45px auto;padding:0 20px}
+h2{font-size:30px;margin-bottom:18px;color:#111827}
+.intro{background:white;padding:28px;border-radius:14px;box-shadow:0 5px 20px #0000000b}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.skill{background:#eef2ff;color:#3730a3;padding:8px 13px;border-radius:20px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.card{background:white;padding:25px;border-radius:14px;box-shadow:0 5px 20px #0000000b}
+.card h3{font-size:21px;margin-bottom:8px;color:#111827}
+.card .tag{display:inline-block;background:#ecfdf5;color:#047857;padding:5px 9px;border-radius:15px;font-size:12px;margin:3px}
+.card ul{margin:15px 0 0 20px}
+.arch{background:#111827;color:#e5e7eb;padding:20px;border-radius:12px;font-family:Consolas,monospace;white-space:pre-wrap}
+.project-detail{margin-top:20px}
+table{width:100%;border-collapse:collapse;background:white;border-radius:12px;overflow:hidden}
+th,td{padding:12px;border-bottom:1px solid #e5e7eb;text-align:left}
+th{background:#f3f4f6}
+footer{text-align:center;padding:35px;background:#111827;color:#d1d5db;margin-top:60px}
+a.btn{display:inline-block;margin-top:18px;background:#2563eb;color:white;padding:11px 18px;border-radius:8px;text-decoration:none}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Manisha Chaudhari</h1>
+<p>IT Infrastructure | Networking | Windows Server | Active Directory</p>
+<p>CCNA & Windows Server / MCSA Lab Project Portfolio</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#architecture">Architecture</a>
+<a href="#interview">Interview Summary</a>
+</nav>
+
+<section id="about">
+<h2>About This Portfolio</h2>
+<div class="intro">
+<p>
+This portfolio demonstrates hands-on IT infrastructure lab work based on Windows Server 2016 training projects.
+The projects cover Active Directory Domain Services (AD DS), DNS, DHCP, SMB/NTFS permissions, Group Policy,
+Windows Server Backup, firewall/event logging, file-server management, DFS and RRAS remote access VPN.
+</p>
+<p style="margin-top:12px">
+The lab scenarios use the fictional company <strong>Aster Business Services</strong> and are designed as training simulations,
+not production deployments or employment experience.
+</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Technical Skills Demonstrated</h2>
+<div class="intro">
+<div class="skills">
+<span class="skill">Windows Server 2016</span>
+<span class="skill">Active Directory Domain Services</span>
+<span class="skill">DNS</span>
+<span class="skill">DHCP</span>
+<span class="skill">Group Policy</span>
+<span class="skill">SMB</span>
+<span class="skill">NTFS Permissions</span>
+<span class="skill">Windows Server Backup</span>
+<span class="skill">Windows Firewall</span>
+<span class="skill">Event Logs</span>
+<span class="skill">FSRM</span>
+<span class="skill">DFS Namespace</span>
+<span class="skill">DFS Replication</span>
+<span class="skill">RRAS</span>
+<span class="skill">VPN</span>
+<span class="skill">L2TP/IPsec</span>
+<span class="skill">RDP with NLA</span>
+<span class="skill">PowerShell</span>
+<span class="skill">Networking Fundamentals</span>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Featured Projects</h2>
+<div class="grid">
+
+<div class="card">
+<h3>01 — New Office Infrastructure</h3>
+<span class="tag">MCSA-P01</span><span class="tag">Foundation</span>
+<p style="margin-top:12px">Designed and implemented a Windows Server office infrastructure for a fictional 60-user organisation.</p>
+<ul>
+<li>Built domain controller and Windows Server lab VMs.</li>
+<li>Implemented AD DS and DNS.</li>
+<li>Configured DHCP and domain membership.</li>
+<li>Created users, groups and controlled departmental shares.</li>
+<li>Configured SMB/NTFS permissions and Group Policy.</li>
+<li>Implemented Windows Server Backup and recovery testing.</li>
+<li>Validated firewall and event-log controls.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>02 — Controlled Document Centre</h3>
+<span class="tag">MCSA-P02</span><span class="tag">File Services</span>
+<p style="margin-top:12px">Built a controlled document-management lab using Windows Server file-services technologies.</p>
+<ul>
+<li>Configured FSRM quotas.</li>
+<li>Implemented file screening.</li>
+<li>Built a second file server.</li>
+<li>Created DFS Namespace.</li>
+<li>Configured DFS Replication and convergence testing.</li>
+<li>Applied SMB permissions.</li>
+<li>Created backup and restore validation.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>03 — Remote Employee Access</h3>
+<span class="tag">MCSA-P05</span><span class="tag">RRAS/VPN</span>
+<p style="margin-top:12px">Implemented a simulated remote-access service allowing an authorised employee to reach an internal HR share through a VPN tunnel.</p>
+<ul>
+<li>Configured RRAS remote access.</li>
+<li>Implemented L2TP over IPsec in the lab.</li>
+<li>Configured routing and return paths.</li>
+<li>Configured dial-in authorisation.</li>
+<li>Validated DNS and SMB access through the tunnel.</li>
+<li>Used RDP with NLA without exposing RDP directly to the WAN.</li>
+<li>Tested remote-access revocation.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="architecture">
+<h2>Combined Lab Architecture</h2>
+<div class="arch">
+                    Simulated WAN / Home Network
+                              |
+                         RRAS / VPN
+                              |
+                         Lab Network
+                              |
+             +----------------+----------------+
+             |                |                |
+          AST-DC01         AST-FS01         AST-BK01
+          AD DS/DNS        File Server       Backup
+             |
+          AST-CL01
+        Windows Client
+
+Core services:
+AD DS | DNS | DHCP | SMB/NTFS | Group Policy
+Backup | Firewall | FSRM | DFS | RRAS | VPN | RDP
+</div>
+</section>
+
+<section>
+<h2>Project Evidence Checklist</h2>
+<table>
+<tr><th>Area</th><th>Evidence to Capture</th></tr>
+<tr><td>AD DS</td><td>Domain, OUs, users and groups</td></tr>
+<tr><td>DNS</td><td>DNS zones and name-resolution tests</td></tr>
+<tr><td>DHCP</td><td>Scope, options and client lease</td></tr>
+<tr><td>Group Policy</td><td>GPO configuration and gpresult output</td></tr>
+<tr><td>File Services</td><td>Shares, SMB and NTFS permissions</td></tr>
+<tr><td>Backup</td><td>Backup job and successful restore test</td></tr>
+<tr><td>DFS</td><td>Namespace, targets and replication result</td></tr>
+<tr><td>VPN</td><td>RRAS, tunnel connection, DNS/share access and revocation</td></tr>
+<tr><td>Troubleshooting</td><td>Fault introduced, diagnostic commands and recovery</td></tr>
+</table>
+</section>
+
+<section id="interview">
+<h2>Interview Project Summary</h2>
+<div class="intro">
+<p>
+<strong>Project:</strong> Windows Server IT Infrastructure and Remote Access Lab
+</p>
+<p style="margin-top:10px">
+<strong>Summary:</strong> Built a Windows Server 2016 training environment for Aster Business Services,
+implementing AD DS, DNS, DHCP, Group Policy, SMB/NTFS permissions, backup, file services and RRAS-based
+remote access. Extended the foundation with FSRM, DFS Namespace/Replication and an L2TP/IPsec VPN lab.
+Validated the environment through functional tests, controlled failure drills, recovery checks and operational documentation.
+</p>
+<p style="margin-top:10px">
+<strong>Important:</strong> Present these as hands-on training/lab projects. Do not describe them as production
+experience or as an earned MCSA certification.
+</p>
+</div>
+</section>
+
+<footer>
+<p>Manisha Chaudhari | IT Infrastructure & Networking Portfolio</p>
+<p>Windows Server 2016 • Active Directory • Networking • File Services • VPN</p>
+</footer>
+</body>
+</html>
