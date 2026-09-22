@@ -1,0 +1,94 @@
+# MCSA-P01 — New Office Infrastructure
+
+## Project Overview
+
+This project is a Windows Server infrastructure lab completed using VMware.
+
+The objective was to build a small business Windows Server environment with centralized identity, DNS, DHCP, file sharing, access control, Group Policy, backup, and validation.
+
+## Lab Environment
+
+**Virtualization:** VMware Workstation
+
+**Windows Server:** Windows Server 2016
+
+**Client:** Windows client VM
+
+## Virtual Machines
+
+| VM       | Role                        |
+| -------- | --------------------------- |
+| AST-DC01 | Active Directory, DNS, DHCP |
+| AST-FS01 | File Server                 |
+| AST-BK01 | Backup Server               |
+| AST-CL01 | Client / Testing            |
+
+## Technologies Used
+
+* Active Directory Domain Services
+* DNS
+* DHCP
+* SMB
+* NTFS Permissions
+* Group Policy
+* Windows Server Backup
+* Windows Firewall
+* Event Logs
+* VMware
+
+## Implementation
+
+### 1. VMware Lab Setup
+
+Created the required virtual machines and configured the virtual networking required for the lab.
+
+### 2. Active Directory
+
+Configured the Windows Server domain environment and created users, groups, and organizational structure.
+
+### 3. DNS
+
+Configured DNS for name resolution within the Windows Server environment.
+
+### 4. DHCP
+
+Configured DHCP to provide IP addressing to the client environment.
+
+### 5. File Server
+
+Created departmental file shares and configured SMB and NTFS permissions.
+
+### 6. Group Policy
+
+Configured and tested the required Group Policy settings.
+
+### 7. Backup and Restore
+
+Configured Windows Server Backup and performed restore validation.
+
+### 8. Testing
+
+Tested:
+
+* Domain connectivity
+* DNS resolution
+* DHCP address assignment
+* User authentication
+* File-share access
+* Permission restrictions
+* Group Policy application
+* Backup and restore
+
+## Evidence
+
+Screenshots for each implementation stage are available in the project folders.
+
+## Skills Demonstrated
+
+**Windows Server | Active Directory | DNS | DHCP | SMB | NTFS | Group Policy | Backup/Restore | VMware | Troubleshooting**
+
+## Project Status
+
+Completed as a hands-on training/lab project.
+
+> This project is a training/lab implementation and should not be represented as production employment experience or as an earned MCSA certification.
