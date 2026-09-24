@@ -145,7 +145,7 @@ AST-CL01
 
 ### Evidence
 
-📁 [View P02 Project](./P02-Document-Centre/)
+📁 https://github.com/Manisha-07ch/MCSA-Windows-Server-Projects/blob/main/MCSA-P02_Evidence.pdf
 
 ---
 
@@ -185,7 +185,7 @@ The lab scenario includes remote access to internal resources while avoiding dir
 
 ### Evidence
 
-📁 [View P03 Project](./P03-Remote-Access/)
+📁 
 
 ---
 
