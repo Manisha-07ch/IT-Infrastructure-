@@ -97,7 +97,7 @@ AST-CL01
 
 ### Evidence
 
-📁 https://github.com/Manisha-07ch/MCSA-Windows-Server-Projects/blob/main/MCSA_P01_Evidence.pdf
+📁 MCSA_P01_Evidence.pdf
 
 ---
 
@@ -145,7 +145,7 @@ AST-CL01
 
 ### Evidence
 
-📁 https://github.com/Manisha-07ch/MCSA-Windows-Server-Projects/blob/main/MCSA-P02_Evidence.pdf
+📁 MCSA-P02_Evidence.pdf
 
 ---
 
@@ -185,7 +185,7 @@ The lab scenario includes remote access to internal resources while avoiding dir
 
 ### Evidence
 
-📁 https://github.com/Manisha-07ch/MCSA-Windows-Server-Projects/blob/main/MCSA_P03_Evidence.pdf
+📁 MCSA_P03_Evidence.pdf
 
 ---
 
